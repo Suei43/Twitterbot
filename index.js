@@ -2,6 +2,7 @@
 // https://developer.twitter.com/en/docs/twitter-api/tweets/lookup/quick-start
 
 const needle = require('needle');
+require('dotenv').config();
 
 // The code below sets the bearer token from your environment variables
 // To set environment variables on macOS or Linux, run the export command below from the terminal:
