@@ -39,7 +39,6 @@ async function getRequest() {
 }
 
 (async () => {
-
     try {
         // Make request
         const response = await getRequest();
