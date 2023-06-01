@@ -33,6 +33,7 @@ async function getRequest() {
     if (res.body) {
         return res.body;
     } else {
+        console.log("An error occured.")
         throw new Error('Unsuccessful request');
     }
 }
